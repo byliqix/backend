@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from schemas import PredictionInput
-from model_loader import knn, rf, xgb, scaler
+from app.schemas import PredictionInput
+from app.model_loader import knn, rf, xgb, scaler
 import pandas as pd
 
 router = APIRouter()
